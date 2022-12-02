@@ -1,7 +1,6 @@
 pub fn run() {
     const INPUT: &'static str = include_str!("input.txt");
     let snacks: Vec<&str> = INPUT.lines().collect();
-    // println!("Rust is fun! {:?}", lines);
 
     // Part 1
     let mut total_cals_per_elf: Vec<u32> = vec![];
